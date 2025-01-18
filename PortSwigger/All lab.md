@@ -1,0 +1,23 @@
+- [x] SQLi (18/18)
+- [ ] XSS (29/30)
+- [x] Access Control vulnerabilities (13/13)
+- [x] Authentication (14/14)
+- [x] Business Logic (12/12)
+- [x] CSRF (12/12)
+- [x] Path traversal (6/6)
+- [x] XXE (9/9)
+- [x] Deserialization (10/10)
+- [x] OS [[Command Injection]]
+- [ ] Server-side template injection (2/7)
+- [ ] WebSockets (1/3)
+- [x] Information disclosure (5/5)
+- [ ] File upload vulnerabilities (6/7)
+- [ ] JWT (5/8)
+- [ ] Essential skills (1/2)
+- [x] Prototype pollution (10/10)
+- [x] API testing (5/5)
+- [ ] Web LLM attacks (3/4)
+- [ ] Web cache deception (4/5)
+- [ ] HTTP Smuggling (7/21)
+
+

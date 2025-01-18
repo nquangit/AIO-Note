@@ -1,0 +1,17 @@
+- [x] API testing
+- [x] Web LLM attacks
+- [x] Cross-site request forgery (CSRF)
+- [ ] Clickjacking (UI redressing)
+- [ ] GraphQL API vulnerabilities
+- [ ] Cross-origin resource sharing (CORS)
+- [ ] NoSQL injection
+- [ ] Race conditions
+- [x] Authentication vulnerabilities
+- [x] Server-side request forgery (SSRF) attacks
+- [x] Prototype pollution
+- [ ] Server-side vulnerabilities
+- [x] File upload vulnerabilities
+- [x] Path traversal
+- [ ] WebSockets vulnerabilities
+- [x] Web cache deception
+- [x] SQL injection

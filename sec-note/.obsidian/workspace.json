@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "13168a1c3461923d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1237219936a2c5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9742a5007b40dc8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP API Security Top 10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OWASP API Security Top 10"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "777c33df187f9b07",
+    "type": "split",
+    "children": [
+      {
+        "id": "4063e1a30effb29a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d48b956b36a7114",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e95a81b4d5f2a166",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Module",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83c8b4c96e6c6350",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "bcf15438f26d2386",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
+            }
+          },
+          {
+            "id": "abc0132e9bae12ef",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319
+  },
+  "right": {
+    "id": "114b6cab0747f771",
+    "type": "split",
+    "children": [
+      {
+        "id": "de55a1704ea0ca25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68ea598d6520fb18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bug hunting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Bug hunting"
+            }
+          },
+          {
+            "id": "603fde2e81658906",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "cb3904e072e0a3f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "416b851153a57931",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Todo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Todo"
+            }
+          },
+          {
+            "id": "85cfbdb14467125a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d01ab1c81da411d6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "03a747dde4ac3714",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 412.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "obsidian-kanban:Create new board": false,
+      "mathpad:Open Mathpad": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "9742a5007b40dc8a",
+  "lastOpenFiles": [
+    "Web Application Security.md",
+    "01 Cybersecurity Mastery.md",
+    "00 Home MOC.md",
+    "Man-in-the-middle attacks.md",
+    "02 Blockchain and Crypto.md",
+    "Network Security.md",
+    "Packet Sniffing.md",
+    "Network Hacking.md",
+    "Deauthentication attack.md",
+    "Aircrack-ng.md",
+    "Algorithm.md",
+    "Access Control.md",
+    "z/Application & Software Security Labs.md",
+    "Zero Knowledge Proof-based cryptography.md",
+    "Untitled.md",
+    "Todo.md",
+    "Lab/HTTP Smuggling.md",
+    "Knowledge/HTTP request smuggling.md",
+    "Knowledge/SQLi.md",
+    "Knowledge/Path Traversal.md",
+    "README.md",
+    "Lab/XXE.md",
+    "Lab/XSS.md",
+    "Lab/JWT.md",
+    "Lab/Insecure deserialization.md",
+    "Lab/Information disclosure.md",
+    "Untitled",
+    "Knowledge",
+    "Lab",
+    "Google Cloud/Path/Introduction to Security Principles in Cloud Computing",
+    "Google Cloud/Path",
+    "Google Cloud/Security & Identity Fundamentals",
+    "Google Cloud/Google Security Operations - Fundamentals",
+    "Google Cloud/Google Cloud Essentials",
+    "Google Cloud",
+    "CIP Fundamental",
+    "HTB/Pasted image 20241029213833.png",
+    "HTB/Pasted image 20241029180346.png",
+    "HTB/Pasted image 20241029172810.png",
+    "HTB/Pasted image 20241029171045.png",
+    "HTB/Pasted image 20241029170202.png",
+    "HTB/Pasted image 20241029164854.png",
+    "HTB/Pasted image 20241029164502.png",
+    "ASCIS 2024/Pasted image 20241019113951.png",
+    "ASCIS 2024/Pasted image 20241019134651.png",
+    "ASCIS 2024/Pasted image 20241019113806.png"
+  ]
+}
