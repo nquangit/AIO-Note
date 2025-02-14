@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile/4. SSL Pinning.md",
+                "file": "Mobile/5. Frida.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. SSL Pinning"
+              "title": "5. Frida"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mobile/4. SSL Pinning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 4. SSL Pinning"
             }
           },
           {
@@ -238,7 +238,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e46ed9c0b8ad6254",
+  "active": "6f855694480fcb2f",
   "lastOpenFiles": [
     "Mobile/5. Frida.md",
     "Mobile/4. SSL Pinning.md",
@@ -251,10 +251,10 @@
     "Financially Common Security Issues/My View.md",
     "Financially Common Security Issues/Detail.md",
     "CTF.Hacker101/WU.md",
-    "OWASP Mobile Top 10 2024/M2. Inadequate Supply Chain Security.md",
-    "OWASP Mobile Top 10 2024/M1. IMPROPER  CREDENTIAL USAGE.md",
+    "Mobile/OWASP Mobile Top 10 2024/M2. Inadequate Supply Chain Security.md",
+    "Mobile/OWASP Mobile Top 10 2024/M1. IMPROPER  CREDENTIAL USAGE.md",
     "My-Summary/By Function/RECON.md",
-    "OWASP Mobile Top 10 2024",
+    "Mobile/OWASP Mobile Top 10 2024",
     "My-Summary/By Function/Login.md",
     "0xAwali - collection/~$0xAwali - Reconnaissance.pptx",
     "0xAwali - collection/~$0xAwali - Online-Shopping.pptx",
