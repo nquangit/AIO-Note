@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0xAwali - collection/Add Email test.md",
+                "file": "Financially Common Security Issues/Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Add Email test"
+              "title": "Overview"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -89,11 +90,22 @@
             "state": {
               "type": "tagfolder-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e054e8edf59aacb0",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
               "icon": "stacked-levels",
               "title": "Tag Folder"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,8 +181,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -206,25 +218,39 @@
       "mathpad:Open Mathpad": false,
       "pomodoro-timer:Toggle timer panel": false,
       "templater-obsidian:Templater": false,
-      "terminal:Open terminal": false,
       "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
       "omnisearch:Omnisearch": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
   "active": "e46ed9c0b8ad6254",
   "lastOpenFiles": [
-    "0xAwali - collection/~$0xAwali - Authorization-Response.pptx",
-    "0xAwali - collection/ppt64CF.tmp",
-    "0xAwali - collection/ppt6319.tmp",
-    "Excalidraw/Drawing 2025-01-11 11.49.24.excalidraw.md",
-    "0xAwali - collection/Add Email test.md",
+    "Financially Common Security Issues/My View.md",
+    "Financially Common Security Issues/Detail.md",
     "CTF.Hacker101/WU.md",
+    "OWASP Mobile Top 10 2024/M2. Inadequate Supply Chain Security.md",
+    "OWASP Mobile Top 10 2024/M1. IMPROPER  CREDENTIAL USAGE.md",
+    "My-Summary/By Function/RECON.md",
+    "OWASP Mobile Top 10 2024",
+    "My-Summary/By Function/Login.md",
+    "0xAwali - collection/~$0xAwali - Reconnaissance.pptx",
+    "0xAwali - collection/~$0xAwali - Online-Shopping.pptx",
+    "0xAwali - collection/~$0xAwali - OAuth-signUp-logIn-page.pptx",
+    "My-Summary/By Function/Sign up.md",
+    "0xAwali - collection/~$0xAwali - logIn-page.pptx",
+    "My-Summary/By Function",
+    "0xAwali - collection/Add Email test.md",
+    "0xAwali - collection/~$0xAwali - signUp-page.pptx",
+    "My-Summary",
+    "PortSwigger/Suggest.md",
+    "Google Cloud",
+    "PortSwigger/README.md",
+    "PortSwigger/Learning Path.md",
+    "0xAwali - collection/~$0xAwali - Authorization-Response.pptx",
+    "Excalidraw/Drawing 2025-01-11 11.49.24.excalidraw.md",
     "PortSwigger/Knowledge/SQLi.md",
-    "CTF.Hacker101",
-    "Excalidraw",
     "Untitled.md",
-    "WSTG",
     "Detail.md",
     "My View.md",
     "Overview.md",
