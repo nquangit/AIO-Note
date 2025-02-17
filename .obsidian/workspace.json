@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile/4. SSL Pinning.md",
+                "file": "Mobile/Frida Script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. SSL Pinning"
-            }
-          },
-          {
-            "id": "e46ed9c0b8ad6254",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mobile/5. Frida.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Frida"
+              "title": "Frida Script"
             }
           }
         ]
@@ -238,13 +224,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6f855694480fcb2f",
+  "active": "611b98fde6bb7f5c",
   "lastOpenFiles": [
     "Mobile/5. Frida.md",
+    "Mobile/Frida Script.md",
+    "Mobile/1. Introduction.md",
     "Mobile/4. SSL Pinning.md",
     "Mobile/3. Reversing The App.md",
     "Mobile/2. Static Analysis.md",
-    "Mobile/1. Introduction.md",
     "README.md",
     "Mobile",
     "Financially Common Security Issues/Overview.md",
@@ -274,7 +261,6 @@
     "Untitled.md",
     "Detail.md",
     "My View.md",
-    "Overview.md",
-    "Welcome.md"
+    "Overview.md"
   ]
 }
