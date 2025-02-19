@@ -65,7 +65,28 @@ setTimeout(function () {
 console.log("Frida started");
 setTimeout(function () {
     Java.perform(function () {
-        // Because the frida0x8 is a native lib compiled by C, so we need to find the strcmp function in libc.so
+	    // List all function/variable from lib
+	    let objects = Module.enumerateExports("libfrida0xa.so");
+        for (let object of objects) {
+            console.log(object.name + ": " + object.address);
+        }
+
+		// Hook by address
+		// Calling native function from Java
+        let get_flag_addr =
+            Module.getBaseAddress("libfrida0xa.so").add(0x1dd60); // Get base address of function
+        // Native Pointer`
+        let getFlagPointer = ptr(get_flag_addr);
+        // Native function get_flag(int, int) takes two integer arguments with void return type
+        // NativeFunction(ptr, returnType, argsType)
+        let get_flag = new NativeFunction(getFlagPointer, "void", [
+            "int",
+            "int",
+        ]);
+        get_flag(1, 2);
+
+
+        // Hook native function by name
         let strcmp_addr = Module.findExportByName("libc.so", "strcmp");
 
         console.log("Found strcmp address: " + strcmp_addr);
@@ -85,6 +106,68 @@ setTimeout(function () {
                 retval.replace(0x539); // return 1337;
             },
         });
+    });
+}, 1000);
+```
+
+### Write instruction
+
+> x86
+
+```js
+console.log("start Frida");
+setTimeout(function () {
+    Java.perform(function () {
+        // Calling native function from Java
+        let addr = Module.getBaseAddress("libfrida0xb.so").add(0x0000); // Get base address of function
+        console.log(addr);
+
+		// Edit permission on Memory with size 0x1000
+        Memory.protect(addr, 0x1000, "rwx");
+        let mem_writer = new X86Writer(addr);
+        try {
+            // Insert instructions
+            mem_writer.putNop();
+            mem_writer.putNop();
+            mem_writer.putNop();
+            mem_writer.putNop();
+            mem_writer.putNop();
+            mem_writer.putNop();
+            // Flush the changes to memory
+            mem_writer.flush();
+        } finally {
+            // Dispose of the X86Writer to free up resources
+            mem_writer.dispose();
+        }
+    });
+}, 1000);
+
+```
+
+> arm64
+
+```js
+console.log("start Frida");
+setTimeout(function () {
+    Java.perform(function () {
+        // Calling native function from Java
+        let addr = Module.getBaseAddress("libfrida0xb.so").add(0x15248); // Get base address of function
+        console.log(addr);
+        // The target to jmp to
+        let target = Module.getBaseAddress("libfrida0xb.so").add(0x1524c);
+
+		// Edit permission on Memory with size 0x1000
+        Memory.protect(addr, 0x1000, "rwx");
+        let mem_writer = new Arm64Writer(addr);
+        try {
+            // Insert instructions
+            mem_writer.putBImm(target)
+            // Flush the changes to memory
+            mem_writer.flush();
+        } finally {
+            // Dispose of the X86Writer to free up resources
+            mem_writer.dispose();
+        }
     });
 }, 1000);
 ```
