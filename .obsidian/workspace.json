@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My-Summary/By Type/JWT/JWT RS256.md",
+                "file": "My-Summary/CMS/WordPress/nulcei.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT RS256"
+              "title": "nulcei"
             }
           }
         ]
@@ -224,14 +224,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5eb698e15c41d48b",
+  "active": "611b98fde6bb7f5c",
   "lastOpenFiles": [
-    "My-Summary/By Type/JWT",
-    "WordPress/xmlrpc.php.md",
+    "My-Summary/CMS/WordPress/xmlrpc.php.md",
+    "My-Summary/CMS/WordPress/nulcei.md",
     "My-Summary/By Type/JWT/JWT RS256.md",
+    "My-Summary/CMS",
+    "My-Summary/By Type/JWT",
     "My-Summary/By Type",
     "CLoud/AWS/Lambda.md",
-    "WordPress",
+    "My-Summary/CMS/WordPress",
     "CLoud/AWS/IAM.md",
     "CLoud/AWS/S3 Bucket.md",
     "CLoud/AWS/EC2.md",
@@ -258,8 +260,6 @@
     "Mobile/OWASP Mobile Top 10 2024",
     "My-Summary/By Function/Login.md",
     "0xAwali - collection/~$0xAwali - Reconnaissance.pptx",
-    "0xAwali - collection/~$0xAwali - Online-Shopping.pptx",
-    "0xAwali - collection/~$0xAwali - OAuth-signUp-logIn-page.pptx",
     "My-Summary/By Function/Sign up.md",
     "0xAwali - collection/Add Email test.md",
     "PortSwigger/Suggest.md"
