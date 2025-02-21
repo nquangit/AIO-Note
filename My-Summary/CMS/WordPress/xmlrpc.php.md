@@ -1,4 +1,4 @@
-[[XML-RPC](https://codex.wordpress.org/XML-RPC_Support) on WordPress is actually an API that allows developers who make 3rd party application and services the ability to interact to your WordPress site. The XML-RPC API that WordPress provides several key functionalities that include:
+[XML-RPC](https://codex.wordpress.org/XML-RPC_Support) on WordPress is actually an API that allows developers who make 3rd party application and services the ability to interact to your WordPress site. The XML-RPC API that WordPress provides several key functionalities that include:
 
 - Publish a post
 - Edit a post
