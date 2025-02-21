@@ -1,3 +1,6 @@
 [submodule "Mobile/Frida-Labs"]
 	path = Mobile/Frida-Labs
 	url = https://github.com/nquangit/Frida-Labs
+[submodule "Network/net-learning-note"]
+	path = Network/net-learning-note
+	url = https://github.com/nquangit/net-learning-note
