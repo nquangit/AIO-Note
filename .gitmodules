@@ -1,0 +1,3 @@
+[submodule "Mobile/Frida-Labs"]
+	path = Mobile/Frida-Labs
+	url = https://github.com/nquangit/Frida-Labs
