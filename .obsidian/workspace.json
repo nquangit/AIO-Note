@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My-Summary/CMS/WordPress/xmlrpc.php.md",
+                "file": "Web-Summary/CMS/WordPress/xmlrpc.php.md",
                 "mode": "source",
                 "source": false
               },
@@ -224,8 +224,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6f855694480fcb2f",
+  "active": "611b98fde6bb7f5c",
   "lastOpenFiles": [
+    "Web-Summary/CMS/WordPress/nulcei.md",
+    "Web-Summary/By Type/JWT/JWT RS256.md",
+    "Web-Summary/By Function/Login.md",
+    "My-Summary/CMS/WordPress/xmlrpc.php.md",
+    "Web-Summary/CMS/WordPress/xmlrpc.php.md",
+    "Web-Summary/By Function/Sign up.md",
+    "Web-Summary/By Function/RECON.md",
+    "Web-Summary/CMS/WordPress",
+    "Web-Summary/By Type/JWT",
+    "Web-Summary/By Function",
+    "Web-Summary/CMS",
+    "Web-Summary/By Type",
+    "Web-Summary",
     "Mobile/Frida-Labs/README.md",
     "Mobile/Frida-Labs/LICENSE",
     "Mobile/Frida-Labs/Frida 0xB/hook_x86.js",
@@ -242,13 +255,7 @@
     "Mobile/Frida-Labs/Frida 0xB/Solution/images/25.png",
     "Mobile/Frida-Labs/Frida 0xB/Solution/images",
     "Mobile/Frida-Labs/Frida 0xB/Solution/Solution.md",
-    "Mobile/Frida-Labs/Frida 0xB/Solution",
-    "Mobile/Frida-Labs/Frida 0xB/Challenge 0xB.apk",
-    "Mobile/Frida-Labs/Frida 0xB",
-    "Mobile/Frida-Labs/Frida 0xA/hook.js",
     "Mobile/Frida-Labs/Frida 0xA/Solution/Solution.md",
-    "Mobile/Frida-Labs/Frida 0xA/Solution/images",
-    "Mobile/Frida-Labs/Frida 0xA/Solution",
     "Mobile/Frida-Labs/Frida 0x9/Solution/Solution.md",
     "Mobile/Frida-Labs/Frida 0x8/Solution/Solution.md",
     "Mobile/Frida-Labs/Frida 0x7/Solution/Solution.md",
@@ -259,18 +266,11 @@
     "Mobile/Frida-Labs/Frida 0x2/Solution/Solution.md",
     "Mobile/Frida-Labs/Frida 0x1/Solution/Solution.md",
     "My-Summary/CMS/WordPress/nulcei.md",
-    "My-Summary/CMS/WordPress/xmlrpc.php.md",
     "My-Summary/By Type/JWT/JWT RS256.md",
     "CLoud/AWS/Lambda.md",
     "CLoud/AWS/IAM.md",
     "CLoud/AWS/S3 Bucket.md",
     "CLoud/AWS/EC2.md",
-    "Mobile/Frida Script.md",
-    "CLoud/Untitled.md",
-    "Mobile/5. Frida.md",
-    "Mobile/3. Reversing The App.md",
-    "Mobile/2. Static Analysis.md",
-    "Mobile/1. Introduction.md",
-    "Mobile/4. SSL Pinning.md"
+    "Mobile/Frida Script.md"
   ]
 }
