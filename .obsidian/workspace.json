@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile/Frida Script.md",
+                "file": "My-Summary/By Type/JWT/JWT RS256.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frida Script"
+              "title": "JWT RS256"
             }
           }
         ]
@@ -224,14 +224,28 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "611b98fde6bb7f5c",
+  "active": "5eb698e15c41d48b",
   "lastOpenFiles": [
+    "My-Summary/By Type/JWT",
+    "WordPress/xmlrpc.php.md",
+    "My-Summary/By Type/JWT/JWT RS256.md",
+    "My-Summary/By Type",
+    "CLoud/AWS/Lambda.md",
+    "WordPress",
+    "CLoud/AWS/IAM.md",
+    "CLoud/AWS/S3 Bucket.md",
+    "CLoud/AWS/EC2.md",
+    "05 - assets/Pasted image 20250220100742.png",
+    "05 - assets",
+    "Mobile/Frida Script.md",
+    "CLoud/Untitled.md",
+    "CLoud/AWS",
+    "CLoud",
     "Mobile/5. Frida.md",
     "Mobile/3. Reversing The App.md",
     "Mobile/2. Static Analysis.md",
     "Mobile/1. Introduction.md",
     "Mobile/4. SSL Pinning.md",
-    "Mobile/Frida Script.md",
     "README.md",
     "Mobile",
     "Financially Common Security Issues/Overview.md",
@@ -247,20 +261,7 @@
     "0xAwali - collection/~$0xAwali - Online-Shopping.pptx",
     "0xAwali - collection/~$0xAwali - OAuth-signUp-logIn-page.pptx",
     "My-Summary/By Function/Sign up.md",
-    "0xAwali - collection/~$0xAwali - logIn-page.pptx",
-    "My-Summary/By Function",
     "0xAwali - collection/Add Email test.md",
-    "0xAwali - collection/~$0xAwali - signUp-page.pptx",
-    "My-Summary",
-    "PortSwigger/Suggest.md",
-    "Google Cloud",
-    "PortSwigger/README.md",
-    "PortSwigger/Learning Path.md",
-    "Excalidraw/Drawing 2025-01-11 11.49.24.excalidraw.md",
-    "PortSwigger/Knowledge/SQLi.md",
-    "Untitled.md",
-    "Detail.md",
-    "My View.md",
-    "Overview.md"
+    "PortSwigger/Suggest.md"
   ]
 }
