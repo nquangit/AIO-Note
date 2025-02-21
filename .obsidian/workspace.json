@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web-Summary/CMS/WordPress/xmlrpc.php.md",
+                "file": "sec-note/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xmlrpc.php"
+              "title": "README"
             }
           }
         ]
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269
+    "width": 383
   },
   "right": {
     "id": "1cb340fa3e7e4dcd",
@@ -226,11 +226,13 @@
   },
   "active": "611b98fde6bb7f5c",
   "lastOpenFiles": [
+    "sec-note/00 Home MOC.md",
+    "sec-note/README.md",
+    "Web-Summary/CMS/WordPress/xmlrpc.php.md",
     "Web-Summary/CMS/WordPress/nulcei.md",
     "Web-Summary/By Type/JWT/JWT RS256.md",
     "Web-Summary/By Function/Login.md",
     "My-Summary/CMS/WordPress/xmlrpc.php.md",
-    "Web-Summary/CMS/WordPress/xmlrpc.php.md",
     "Web-Summary/By Function/Sign up.md",
     "Web-Summary/By Function/RECON.md",
     "Web-Summary/CMS/WordPress",
@@ -269,8 +271,6 @@
     "My-Summary/By Type/JWT/JWT RS256.md",
     "CLoud/AWS/Lambda.md",
     "CLoud/AWS/IAM.md",
-    "CLoud/AWS/S3 Bucket.md",
-    "CLoud/AWS/EC2.md",
-    "Mobile/Frida Script.md"
+    "CLoud/AWS/S3 Bucket.md"
   ]
 }
