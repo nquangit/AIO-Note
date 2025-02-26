@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5e1174083e550cb8",
+        "id": "fb1e5eac1f34bd73",
         "type": "tabs",
         "children": [
           {
-            "id": "75e12ffbfa5ab1f9",
+            "id": "479d187c8275f992",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mobile/101/Native Libraries.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Native Libraries"
             }
           }
         ]
@@ -104,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383
+    "width": 386
   },
   "right": {
     "id": "1cb340fa3e7e4dcd",
@@ -222,6 +226,16 @@
   },
   "active": "5eb698e15c41d48b",
   "lastOpenFiles": [
+    "Mobile/101/Reverse Engineering Android Apps.md",
+    "Mobile/101/Native Libraries.md",
+    "Mobile/101/Untitled",
+    "Mobile/101/Getting Started with Reversing Android Apps.md",
+    "Mobile/101/Android Application Fundamentals.md",
+    "Mobile/1. Introduction.md",
+    "Mobile/101",
+    "Mobile/Frida Script.md",
+    "CLoud/AWS/Lambda.md",
+    "CLoud/AWS/S3 Bucket.md",
     "collection/z/Threat Detection & Response Labs.md",
     "collection/z/Offensive Security Labs.md",
     "collection/z/Network & Systems Security Labs.md",
@@ -248,14 +262,6 @@
     "collection/Wi-Fi Protected Access II (WPA2).md",
     "collection/Wi-Fi Protected Access (WPA).md",
     "collection/Whistleblowers.md",
-    "collection/WEP Cracking.md",
-    "collection/Website Hacking.md",
-    "collection/Web Application Security.md",
-    "collection/Web Application Exploitation.md",
-    "collection/Vulnerability Identification.md",
-    "collection/Vulnerability Assessment.md",
-    "collection/Vulnerability Assessment Tools.md",
-    "collection/Vishing (Voice Phishing).md",
     "collection/publish.css",
     "collection/assets",
     "collection",
@@ -263,8 +269,6 @@
     "Web/CTF.Hacker101",
     "Web/WSTG",
     "Web/PortSwigger/Lab/Solution/Lab Developing a custom gadget chain for Java deserialization/data/productcatalog/ProductTemplate.java",
-    "Web/PortSwigger/Lab/Solution/Lab Developing a custom gadget chain for Java deserialization/data/productcatalog/Product.java",
-    "Web/PortSwigger/Lab/Solution/Lab Developing a custom gadget chain for Java deserialization/data/productcatalog",
     "Network/net-learning-note/CCNA/Basic Router Config/enable_passwd.png",
     "Network/net-learning-note/CCNA/Basic Router Config/diagram.png",
     "Network/net-learning-note/CCNA/Basic Router Config/console_passwd.png"
