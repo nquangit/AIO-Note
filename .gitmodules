@@ -4,3 +4,9 @@
 [submodule "Network/net-learning-note"]
 	path = Network/net-learning-note
 	url = https://github.com/nquangit/net-learning-note
+[submodule "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup"]
+	path = write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup
+	url = https://github.com/nquangit/FIA_Summer_CTF_web_Writeup
+[submodule "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography"]
+	path = write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography
+	url = https://github.com/nquangit/TechnicalTest_Cryptography
