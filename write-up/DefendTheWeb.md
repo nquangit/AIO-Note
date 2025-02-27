@@ -1,5 +1,7 @@
+Exported from Evernote.
+Noted at 18/08/2021
+
 - [https://defendtheweb.net/](https://defendtheweb.net/)
-    
 
 Huỳnh Ngọc Quang
 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write-up/DefendTheWeb.md",
+                "file": "write-up/picoCTF/2019.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DefendTheWeb"
+              "title": "2019"
             }
           }
         ],
@@ -254,10 +254,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5eb698e15c41d48b",
+  "active": "6bc140b6ef9873f3",
   "lastOpenFiles": [
-    "Mobile/101/Obfuscation.md",
     "write-up/DefendTheWeb.md",
+    "write-up/picoCTF/2019.md",
+    "write-up/picoCTF",
+    "Mobile/101/Obfuscation.md",
     "Mobile/101/Native Libraries.md",
     "Mobile/101/Android Application Fundamentals.md",
     "Mobile/101/1. Introduction.md",
@@ -288,7 +290,6 @@
     "write-up/FIA/CTF/2023",
     "write-up/FIA/CTF/New folder",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/StillVuln/Still Vulnerable.md",
-    "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/StillVuln",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/README.md",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
     "Mobile/1. Introduction.md",
@@ -300,7 +301,6 @@
     "collection/z/Network & Systems Security Labs.md",
     "collection/z/GRC and Advisory Labs.md",
     "collection/z/Application & Software Security Labs.md",
-    "collection/Zero Knowledge Proof-based cryptography.md",
-    "collection/WPA handshake.md"
+    "collection/Zero Knowledge Proof-based cryptography.md"
   ]
 }
