@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile/101/Obfuscation.md",
+                "file": "Mobile/101/Reverse Engineering Android Apps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obfuscation"
+              "title": "Reverse Engineering Android Apps"
             }
           }
         ]
@@ -226,12 +226,13 @@
   },
   "active": "7c03dc7c314e9ca8",
   "lastOpenFiles": [
-    "Mobile/101/Native Libraries.md",
-    "Mobile/101/Obfuscation.md",
-    "Mobile/101/Reverse Engineering Android Apps.md",
-    "Mobile/101/Untitled",
     "Mobile/101/Getting Started with Reversing Android Apps.md",
+    "Mobile/101/Reverse Engineering Android Apps.md",
+    "Mobile/101/Obfuscation.md",
+    "Mobile/101/Native Libraries.md",
     "Mobile/101/Android Application Fundamentals.md",
+    "Mobile/101/1. Introduction.md",
+    "Mobile/101/Untitled",
     "Mobile/1. Introduction.md",
     "Mobile/101",
     "Mobile/Frida Script.md",
@@ -261,7 +262,6 @@
     "collection/Wifite.md",
     "collection/Wifi Bands.md",
     "collection/Wi-Fi Protected Access II (WPA2).md",
-    "collection/Wi-Fi Protected Access (WPA).md",
     "collection/publish.css",
     "collection/assets",
     "collection",
