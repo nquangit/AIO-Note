@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Mobile/101/Obfuscation.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Obfuscation"
             }
           }
         ]
@@ -226,6 +226,12 @@
   },
   "active": "7c03dc7c314e9ca8",
   "lastOpenFiles": [
+    "Mobile/101/Native Libraries.md",
+    "Mobile/101/Obfuscation.md",
+    "Mobile/101/Android Application Fundamentals.md",
+    "Mobile/101/1. Introduction.md",
+    "Mobile/101/Getting Started with Reversing Android Apps.md",
+    "README.md",
     "Mobile/101/Reverse Engineering Android Apps.md",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/result.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify4.png",
@@ -254,11 +260,6 @@
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/StillVuln",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/README.md",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
-    "Mobile/101/Getting Started with Reversing Android Apps.md",
-    "Mobile/101/Obfuscation.md",
-    "Mobile/101/Native Libraries.md",
-    "Mobile/101/Android Application Fundamentals.md",
-    "Mobile/101/1. Introduction.md",
     "Mobile/1. Introduction.md",
     "Mobile/Frida Script.md",
     "CLoud/AWS/Lambda.md",

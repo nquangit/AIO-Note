@@ -196,12 +196,12 @@ From the Android [JNI Tips](https://developer.android.com/training/articles/perf
 
 Here are some commonly used functions (and their offsets in JNIEnv):
 
-- JNIEnv + 0x18: jclass (*FindClass)(JNIEnv_, const char_);
-- JNIEnv + 0x34: jint (*Throw)(JNIEnv*, jthrowable);
-- JNIEnv + 0x70: jobject (*NewObject)(JNIEnv*, jclass, jmethodID, …);
-- JNIEnv + 0x84: jobject (*NewObject)(JNIEnv*, jclass, jmethodID, …);
-- JNIEnv + 0x28C: jstring (*NewString)(JNIEnv_, const jchar_, jsize);
-- JNIEnv + 0x35C: jint (*RegisterNatives)(JNIEnv_, jclass, const JNINativeMethod_, jint);
+- JNIEnv + 0x18: `jclass (*FindClass)(JNIEnv_, const char_);`
+- JNIEnv + 0x34: `jint (*Throw)(JNIEnv*, jthrowable);`
+- JNIEnv + 0x70: `jobject (*NewObject)(JNIEnv*, jclass, jmethodID, …);`
+- JNIEnv + 0x84: `jobject (*NewObject)(JNIEnv*, jclass, jmethodID, …);`
+- JNIEnv + 0x28C: `jstring (*NewString)(JNIEnv_, const jchar_, jsize);`
+- JNIEnv + 0x35C: `jint (*RegisterNatives)(JNIEnv_, jclass, const JNINativeMethod_, jint);`
 
 When analyzing Android native libraries, the presence of JNIEnv means that:
 
