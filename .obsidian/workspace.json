@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile/101/Reverse Engineering Android Apps.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse Engineering Android Apps"
+              "title": "README"
             }
           }
         ]
@@ -224,8 +224,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6f855694480fcb2f",
+  "active": "7c03dc7c314e9ca8",
   "lastOpenFiles": [
+    "Mobile/101/Reverse Engineering Android Apps.md",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/result.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify4.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify3.png",
@@ -242,7 +243,6 @@
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln/crack.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/webmindashboard.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/thirdpart.png",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/shadowpermission.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/README.md",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln",
@@ -255,7 +255,6 @@
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/README.md",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
     "Mobile/101/Getting Started with Reversing Android Apps.md",
-    "Mobile/101/Reverse Engineering Android Apps.md",
     "Mobile/101/Obfuscation.md",
     "Mobile/101/Native Libraries.md",
     "Mobile/101/Android Application Fundamentals.md",
