@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write-up/picoCTF/2019.md",
+                "file": "write-up/picoCTF/2019/Web Exploitation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2019"
+              "title": "Web Exploitation"
             }
           }
         ],
@@ -257,7 +257,8 @@
   "active": "6bc140b6ef9873f3",
   "lastOpenFiles": [
     "write-up/DefendTheWeb.md",
-    "write-up/picoCTF/2019.md",
+    "write-up/picoCTF/2019/Web Exploitation.md",
+    "write-up/picoCTF/2019",
     "write-up/picoCTF",
     "Mobile/101/Obfuscation.md",
     "Mobile/101/Native Libraries.md",
@@ -288,7 +289,6 @@
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup",
     "write-up/FIA/CTF/2023",
-    "write-up/FIA/CTF/New folder",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/StillVuln/Still Vulnerable.md",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/README.md",
     "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
@@ -300,7 +300,6 @@
     "collection/z/Offensive Security Labs.md",
     "collection/z/Network & Systems Security Labs.md",
     "collection/z/GRC and Advisory Labs.md",
-    "collection/z/Application & Software Security Labs.md",
-    "collection/Zero Knowledge Proof-based cryptography.md"
+    "collection/z/Application & Software Security Labs.md"
   ]
 }
