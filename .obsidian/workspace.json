@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write-up/picoCTF/2019/Web Exploitation.md",
+                "file": "blog/security/service/Secure SSH Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Exploitation"
+              "title": "Secure SSH Server"
+            }
+          },
+          {
+            "id": "9b52cfdaef9fe0ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/security/service/Linux Secure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Secure"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,52 +268,52 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6bc140b6ef9873f3",
+  "active": "5eb698e15c41d48b",
   "lastOpenFiles": [
-    "write-up/DefendTheWeb.md",
-    "write-up/picoCTF/2019/Web Exploitation.md",
-    "write-up/picoCTF/2019",
-    "write-up/picoCTF",
-    "Mobile/101/Obfuscation.md",
-    "Mobile/101/Native Libraries.md",
-    "Mobile/101/Android Application Fundamentals.md",
-    "Mobile/101/1. Introduction.md",
-    "Mobile/101/Getting Started with Reversing Android Apps.md",
-    "README.md",
-    "Mobile/101/Reverse Engineering Android Apps.md",
+    "blog/security/service/Secure SSH Server.md",
+    "blog/security/service",
+    "blog/security/siem/ELK Build.md",
+    "blog/security/siem",
+    "blog/os/linux/shell/Get a prettier SHELL.md",
+    "blog/os/linux/shell",
+    "blog/os/linux",
+    "system/Secure SSH Server.md",
+    "blog/mobile/Install Burp CA as a system-level trusted CA - Android 11 (Rooted Physical Device).md",
+    "Mobile/Install Burp CA as a system-level trusted CA - Android 11 (Rooted Physical Device).md",
+    "blog/mobile",
+    "blog/IT Fundamentals Technical Skills Facts.md",
+    "blog/client-side",
+    "blog/security/service/Linux Secure.md",
+    "blog/security/firewall/iptables - Linux.md",
+    "blog/dev/Sign commit Github.md",
+    "blog/security/firewall",
+    "blog/security/Cybersecurity Technical Skills Facts.md",
+    "blog/dev/Phát triển ứng dựng mã nguồn đóng từ mã nguồn mở.md",
+    "blog/client-side/How the web browser work.md",
+    "write-up/csc.tf/2024/Web.md",
+    "blog/dev",
+    "write-up/csc.tf/2024",
+    "write-up/csc.tf",
+    "blog/network/service/Zero Trust vs VPN- The Future of Network Security.md",
+    "blog/network/protocol/Các giao thức ở Layer 4 OSI.md",
+    "blog/ctf/Jeopardy CTF.md",
+    "system/Get a prettier SHELL.md",
+    "blog/security/pentest/Web Pentesting.md",
+    "blog/security/pentest/Quy trình pentest.md",
+    "blog/security/Understanding the Cyber Kill Chain.md",
+    "blog/os/linux/Cấu trúc thư mục Linux.md",
+    "blog/architecture/BIOS and UEFI.md",
+    "blog/network/protocol/Hiểu Về SSL, TLS, và HTTPS.md",
+    "blog/network/service/Proxy và Reverse Proxy.md",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/result.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify4.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify3.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify2.png",
     "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/identify1.png",
-    "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography/README.md",
-    "write-up/FIA/EntranceTest/2023/TechnicalTest_Cryptography",
-    "write-up/FIA/EntranceTest/2023",
-    "write-up/FIA/EntranceTest",
-    "write-up/FIA/New folder",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln/Still Vulnerable.md",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln/jwt2john.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln/flag.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln/crack.png",
     "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/webmindashboard.png",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/thirdpart.png",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/README.md",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/StillVuln",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln",
-    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup",
-    "write-up/FIA/CTF/2023",
-    "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/StillVuln/Still Vulnerable.md",
-    "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/README.md",
-    "write-up/FIA/CTF/FIA_Summer_CTF_web_Writeup/CommonVuln/Common Vuln.md",
-    "Mobile/1. Introduction.md",
-    "Mobile/Frida Script.md",
-    "CLoud/AWS/Lambda.md",
-    "CLoud/AWS/S3 Bucket.md",
-    "collection/z/Threat Detection & Response Labs.md",
-    "collection/z/Offensive Security Labs.md",
-    "collection/z/Network & Systems Security Labs.md",
-    "collection/z/GRC and Advisory Labs.md",
-    "collection/z/Application & Software Security Labs.md"
+    "write-up/FIA/CTF/2023/FIA_Summer_CTF_web_Writeup/CommonVuln/thirdpart.png"
   ]
 }
